@@ -10,6 +10,7 @@ return array(
     'CreateCommentsTable' => $baseDir . '/database/migrations/2016_09_08_025812_create_comments_table.php',
     'CreatePasswordResetsTable' => $baseDir . '/database/migrations/2014_10_12_100000_create_password_resets_table.php',
     'CreateQuestionsTable' => $baseDir . '/database/migrations/2016_09_07_225757_create_questions_table.php',
+    'CreateQuestsTable' => $baseDir . '/database/migrations/2016_10_06_135943_create_quests_table.php',
     'CreateSubcategoriesTable' => $baseDir . '/database/migrations/2016_09_09_021140_create_subcategories_table.php',
     'CreateUsersTable' => $baseDir . '/database/migrations/2014_10_12_000000_create_users_table.php',
     'DatabaseSeeder' => $baseDir . '/database/seeds/DatabaseSeeder.php',
