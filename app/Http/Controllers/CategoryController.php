@@ -20,8 +20,7 @@ class CategoryController extends Controller
         $image = $request->file('image');
         $num = $request->get('num');
         $bool = $request->get('bool');
-        if($bool == null)
-        {
+        if($bool == null) {
             $bool = FALSE;
         } else {
             $bool = TRUE;
@@ -33,11 +32,14 @@ class CategoryController extends Controller
         $category->setNum($num);
         $category->setBool($bool);
 
+        if($image == null) {
+            $category->setImage('null');
+        } else {
         $extension = $image->getClientOriginalExtension(); // getting image extension
         $fileName = rand(11111,99999).'.'.$extension;
         $directory = storage_path("uploads");
         $image = $image->move($directory, $fileName);
-        $category->setImage($image->getFilename());
+        $category->setImage($image->getFilename()); }
         $category->save();
 
         return redirect()->route('admin.index');

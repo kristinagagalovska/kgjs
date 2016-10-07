@@ -1,4 +1,7 @@
 /node_modules
 Homestead.yaml
 Homestead.json
+.idea/
+storage/uploads
+/storage/uploads
 

@@ -27,7 +27,12 @@
             @if($categories)
             {{$categories[0]->title}}
                 <p> {{$categories[0]->description}} <br>
-                    <img src="{{ route('images', $categories[0]->image)}}" style="height: 16em; width:16em;"> <br>
+                    @if($categories[0]->image == 'null')
+                        {{--<img src="{{ route('images', $cat->image)}}" style="height: 16em; width:16em; display: none;"> <br>--}}
+                    @else
+                        <img src="{{ route('images', $categories[0]->image)}}" style="height: 16em; width:16em;"> <br>
+                    @endif
+
                 </p>
             @endif
         </div>

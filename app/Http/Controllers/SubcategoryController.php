@@ -36,11 +36,14 @@ class SubcategoryController extends Controller
         $category->setBool($bool);
         $category->setCatId($catId);
 
+        if($image == null) {
+            $category->setImage('null');
+        } else {
         $extension = $image->getClientOriginalExtension(); // getting image extension
         $fileName = rand(11111,99999).'.'.$extension;
         $directory = storage_path("uploads");
         $image = $image->move($directory, $fileName);
-        $category->setImage($image->getFilename());
+        $category->setImage($image->getFilename()); }
         $category->save();
 
         return redirect()->route('category.all');

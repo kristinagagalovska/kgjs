@@ -27,7 +27,11 @@
                 @foreach($category as $cat)
                     {{$cat->title}}
                     <p> {{$cat->description}} <br>
-                        <img src="{{ route('images', $cat->image)}}" style="height: 16em; width:16em;"> <br>
+                        @if($cat->image == 'null')
+                        {{--<img src="{{ route('images', $cat->image)}}" style="height: 16em; width:16em; display: none;"> <br>--}}
+                            @else
+                            <img src="{{ route('images', $cat->image)}}" style="height: 16em; width:16em;"> <br>
+                            @endif
                     </p>
                 @endforeach
         </div>

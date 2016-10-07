@@ -84,7 +84,12 @@
             <div class="media-body">
                 {{--<h3 class="media-heading">Media heading</h3>--}}
                 {{$comment->description}} <br>
-                <img src="{{ route('images', $comment->image)}}" style="height: 16em; width:16em;">
+                @if($comment->image == 'null')
+                    {{--<img src="{{ route('images', $cat->image)}}" style="height: 16em; width:16em; display: none;"> <br>--}}
+                @else
+                    <img src="{{ route('images', $comment->image)}}" style="height: 16em; width:16em;">
+                @endif
+
                 </div>
             </div>
         @endforeach

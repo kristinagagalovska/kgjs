@@ -2,7 +2,6 @@
 
 namespace App\Http\Controllers;
 
-
 use App\Comment;
 use Illuminate\Http\Request;
 
@@ -21,11 +20,14 @@ class CommentsController extends Controller
         $comment = new Comment();
         $comment->setDescription($description);
 
+        if($image == null) {
+            $comment->setImage('null');
+        } else {
         $extension = $image->getClientOriginalExtension(); // getting image extension
         $fileName = rand(11111,99999).'.'.$extension;
         $directory = storage_path("uploads/");
         $image = $image->move($directory, $fileName);
-        $comment->setImage($image->getFilename());
+        $comment->setImage($image->getFilename()); }
         $comment->save();
     }
 }
