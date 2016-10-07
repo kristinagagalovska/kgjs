@@ -23,7 +23,7 @@
         <div class="row">
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar"> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
-                <a class="navbar-brand" href="{{route('index')}}"><img src="img/logo.png" alt="Klinika Gjermane e Syrit" height="40" width="170"></a> </div>
+                <a class="navbar-brand" href="{{route('index')}}"><img src="{{url("/img/logo.png")}}" alt="Klinika Gjermane e Syrit" height="40" width="170"></a> </div>
             <div class="collapse navbar-collapse" id="myNavbar">
                 <ul class="nav navbar-nav navbar-right">
                     <li><a href="{{route('t1.index')}}">Нарушување на видот</a></li>

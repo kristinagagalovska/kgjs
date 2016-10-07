@@ -10,6 +10,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="../css/page.css">
 </head>
 
 <!--Body-->
@@ -23,7 +24,7 @@
         <div class="row">
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar"> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
-                <a class="navbar-brand" href="{{route('index')}}"><img src="img/logo.png" alt="Klinika Gjermane e Syrit" height="40" width="170"></a> </div>
+                <a class="navbar-brand" href="{{route('index')}}"><img src="{{url("/img/logo.png")}}" alt="Klinika Gjermane e Syrit" height="40" width="170"></a> </div>
             <div class="collapse navbar-collapse" id="myNavbar">
                 <ul class="nav navbar-nav navbar-right">
                     <li><a href="{{route('t1.index')}}">Нарушување на видот</a></li>
@@ -53,19 +54,19 @@
             </ol>
             <!-- Wrapper for slides -->
             <div class="carousel-inner" role="listbox">
-                <div class="item active"> <img src="img/uploads/11.jpg" alt="New York" width="1200" height="700">
+                <div class="item active"> <img src="{{url("img/uploads/11.jpg")}}" alt="New York" width="1200" height="700">
                     <div class="carousel-caption">
                         <h3>New York</h3>
                         <p>The atmosphere in New York is lorem ipsum.</p>
                     </div>
                 </div>
-                <div class="item"> <img src="img/uploads/2.jpg" alt="Chicago" width="1200" height="700">
+                <div class="item"> <img src="{{url("img/uploads/2.jpg")}}" alt="Chicago" width="1200" height="700">
                     <div class="carousel-caption">
                         <h3>Chicago</h3>
                         <p>Thank you, Chicago - A night we won't forget.</p>
                     </div>
                 </div>
-                <div class="item"> <img src="img/uploads/3.jpg" alt="Los Angeles" width="1200" height="700">
+                <div class="item"> <img src="{{url("img/uploads/3.jpg")}}" alt="Los Angeles" width="1200" height="700">
                     <div class="carousel-caption">
                         <h3>LA</h3>
                         <p>Even though the traffic was a mess, we had the best time playing at Venice Beach!</p>
@@ -84,6 +85,7 @@
         </div>
     </div>
 
+
 @yield('content')
 
     <!-- Row (Contact Section) -->
@@ -100,9 +102,9 @@
             </address>
             <p><strong>Social</strong></p>
             <div class="row">
-                <div class="col-xs-2"><img class="img-circle" src="img/fblogo.jpg" width="32px" height="32px" alt="Fb Logo"></div>
-                <div class="col-xs-2"><img class="img-circle" src="img/youtubelogo.png" width="32px" height="32px" alt="Youtube Logo"></div>       	<div class="col-xs-2"><img class="img-circle" src="img/32X32.gif" alt=""></div>
-                <div class="col-xs-2"><img class="img-circle" src="img/32X32.gif" alt=""></div>
+                <div class="col-xs-2"><img class="img-circle" src="{{url("img/fblogo.jpg")}}" width="32px" height="32px" alt="Fb Logo"></div>
+                <div class="col-xs-2"><img class="img-circle" src="{{url("img/youtubelogo.png")}}" width="32px" height="32px" alt="Youtube Logo"></div>       	<div class="col-xs-2"><img class="img-circle" src="img/32X32.gif" alt=""></div>
+                <div class="col-xs-2"><img class="img-circle" src="{{url("img/32X32.gif")}}" alt=""></div>
             </div>
         </div>
 

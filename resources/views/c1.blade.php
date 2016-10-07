@@ -24,16 +24,16 @@
         </div>
         <!--Content-->
         <div class="col-md-8" id="permbajtjekryesore">
-                @foreach($category as $cat)
-                    {{$cat->title}}
-                    <p> {{$cat->description}} <br>
-                        @if($cat->image == 'null')
+            @foreach($category as $cat)
+                {{$cat->title}}
+                <p> {{$cat->description}} <br>
+                    @if($cat->id == null)
                         {{--<img src="{{ route('images', $cat->image)}}" style="height: 16em; width:16em; display: none;"> <br>--}}
-                            @else
-                            <img src="{{ route('images', $cat->image)}}" style="height: 16em; width:16em;"> <br>
-                            @endif
-                    </p>
-                @endforeach
+                    @else
+                        <img src="{{ route('images', $cat->image)}}" style="height: 16em; width:16em;"> <br>
+                    @endif
+                </p>
+            @endforeach
         </div>
     </div>
 
