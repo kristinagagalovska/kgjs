@@ -1,3 +1,5 @@
+<link rel="stylesheet" type="text/css" href={{url("css/page.css")}}>
+
 @extends('layouts.page')
 
 @section('content')

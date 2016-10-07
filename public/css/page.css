@@ -114,6 +114,13 @@ body {
 	border-bottom: 5px solid;
 	border-color: #cd9dd8;
 	}
+	#menyMajtas1 {
+	padding: 10px;
+	margin: 10px;
+	border-top: 5px solid;
+	border-bottom: 5px solid;
+	border-color: #cd9dd8;
+	}
 /*Footer*/
 	footer {
 	border-top: 10px solid;
