@@ -2,27 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ceb94d96-d273-4511-96b3-511ac53f3578" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/CategoryController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/CategoryController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/CommentsController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/CommentsController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/SubcategoryController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/SubcategoryController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/c1.blade.php" afterPath="$PROJECT_DIR$/resources/views/c1.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/c2.blade.php" afterPath="$PROJECT_DIR$/resources/views/c2.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/c3.blade.php" afterPath="$PROJECT_DIR$/resources/views/c3.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/c4.blade.php" afterPath="$PROJECT_DIR$/resources/views/c4.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/c5.blade.php" afterPath="$PROJECT_DIR$/resources/views/c5.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/TitleController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/TitleController.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/index.blade.php" afterPath="$PROJECT_DIR$/resources/views/index.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/sub1.blade.php" afterPath="$PROJECT_DIR$/resources/views/sub1.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/sub2.blade.php" afterPath="$PROJECT_DIR$/resources/views/sub2.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/sub3.blade.php" afterPath="$PROJECT_DIR$/resources/views/sub3.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/sub4.blade.php" afterPath="$PROJECT_DIR$/resources/views/sub4.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/sub5.blade.php" afterPath="$PROJECT_DIR$/resources/views/sub5.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/t1.blade.php" afterPath="$PROJECT_DIR$/resources/views/t1.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/t2.blade.php" afterPath="$PROJECT_DIR$/resources/views/t2.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/t3.blade.php" afterPath="$PROJECT_DIR$/resources/views/t3.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/t4.blade.php" afterPath="$PROJECT_DIR$/resources/views/t4.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/t5.blade.php" afterPath="$PROJECT_DIR$/resources/views/t5.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/prashaj.blade.php" afterPath="$PROJECT_DIR$/resources/views/prashaj.blade.php" />
     </list>
     <ignored path="kgjs.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -47,103 +29,107 @@
       <file leaf-file-name="index.blade.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/views/index.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1462">
-              <caret line="86" column="28" selection-start-line="86" selection-start-column="28" selection-end-line="86" selection-end-column="28" />
+            <state relative-caret-position="-578">
+              <caret line="8" column="59" selection-start-line="8" selection-start-column="59" selection-end-line="8" selection-end-column="59" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
+      <file leaf-file-name="prashaj.blade.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/resources/views/prashaj.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+            <state relative-caret-position="187">
+              <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="sub3.blade.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/sub3.blade.php">
+      <file leaf-file-name="app.blade.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/views/layouts/app.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="32" column="26" selection-start-line="28" selection-start-column="20" selection-end-line="32" selection-end-column="26" />
+            <state relative-caret-position="-52">
+              <caret line="129" column="0" selection-start-line="129" selection-start-column="0" selection-end-line="129" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="routes.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="13" column="41" selection-start-line="13" selection-start-column="41" selection-end-line="13" selection-end-column="41" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="IndexController.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/IndexController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="340">
+              <caret line="20" column="55" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="55" />
               <folding>
-                <element signature="e#1500#1533#0#HTML" expanded="true" />
+                <element signature="e#40#57#0#PHP" expanded="true" />
+                <marker date="1474465047122" expanded="true" signature="239:290" placeholder="SELECT * FRO... questions" />
+                <marker date="1474465047122" expanded="true" signature="326:376" placeholder="SELECT * FRO... comments" />
+                <marker date="1474465047122" expanded="true" signature="409:613" placeholder="SELECT * FRO... categories" />
+                <marker date="1474465047122" expanded="true" signature="646:730" placeholder="SELECT * FRO... categories" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="sub5.blade.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/sub5.blade.php">
+      <file leaf-file-name="TitleController.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/TitleController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="32" column="26" selection-start-line="32" selection-start-column="26" selection-end-line="32" selection-end-column="26" />
+            <state relative-caret-position="404">
+              <caret line="144" column="60" selection-start-line="144" selection-start-column="60" selection-end-line="144" selection-end-column="60" />
               <folding>
-                <element signature="e#1500#1533#0#HTML" expanded="true" />
+                <marker date="1475827771964" expanded="true" signature="214:252" placeholder="SELECT * FRO... categories" />
+                <marker date="1475827771964" expanded="true" signature="293:334" placeholder="SELECT * FRO... subcategories" />
+                <marker date="1475827771964" expanded="true" signature="506:544" placeholder="SELECT * FRO... categories" />
+                <marker date="1475827771964" expanded="true" signature="585:626" placeholder="SELECT * FRO... subcategories" />
+                <marker date="1475827771964" expanded="true" signature="669:726" placeholder="SELECT * FRO... categories" />
+                <marker date="1475827771964" expanded="true" signature="946:984" placeholder="SELECT * FRO... categories" />
+                <marker date="1475827771964" expanded="true" signature="1025:1066" placeholder="SELECT * FRO... subcategories" />
+                <marker date="1475827771964" expanded="true" signature="1104:1180" placeholder="SELECT * FRO... subcategories" />
+                <marker date="1475827771964" expanded="true" signature="1376:1414" placeholder="SELECT * FRO... categories" />
+                <marker date="1475827771964" expanded="true" signature="1455:1496" placeholder="SELECT * FRO... subcategories" />
+                <marker date="1475827771964" expanded="true" signature="1676:1714" placeholder="SELECT * FRO... categories" />
+                <marker date="1475827771964" expanded="true" signature="1755:1796" placeholder="SELECT * FRO... subcategories" />
+                <marker date="1475827771964" expanded="true" signature="1839:1896" placeholder="SELECT * FRO... categories" />
+                <marker date="1475827771964" expanded="true" signature="2104:2142" placeholder="SELECT * FRO... categories" />
+                <marker date="1475827771964" expanded="true" signature="2183:2224" placeholder="SELECT * FRO... subcategories" />
+                <marker date="1475827771964" expanded="true" signature="2262:2339" placeholder="SELECT * FRO... subcategories" />
+                <marker date="1475827771964" expanded="true" signature="2527:2565" placeholder="SELECT * FRO... categories" />
+                <marker date="1475827771964" expanded="true" signature="2606:2647" placeholder="SELECT * FRO... subcategories" />
+                <marker date="1475827771964" expanded="true" signature="2819:2857" placeholder="SELECT * FRO... categories" />
+                <marker date="1475827771964" expanded="true" signature="2898:2939" placeholder="SELECT * FRO... subcategories" />
+                <marker date="1475827771964" expanded="true" signature="2982:3039" placeholder="SELECT * FRO... categories" />
+                <marker date="1475827771964" expanded="true" signature="3247:3285" placeholder="SELECT * FRO... categories" />
+                <marker date="1475827771964" expanded="true" signature="3326:3367" placeholder="SELECT * FRO... subcategories" />
+                <marker date="1475827771964" expanded="true" signature="3405:3482" placeholder="SELECT * FRO... subcategories" />
+                <marker date="1475827771964" expanded="true" signature="3670:3708" placeholder="SELECT * FRO... categories" />
+                <marker date="1475827771964" expanded="true" signature="3749:3790" placeholder="SELECT * FRO... subcategories" />
+                <marker date="1475827771964" expanded="true" signature="3962:4000" placeholder="SELECT * FRO... categories" />
+                <marker date="1475827771964" expanded="true" signature="4041:4082" placeholder="SELECT * FRO... subcategories" />
+                <marker date="1475827771964" expanded="true" signature="4125:4182" placeholder="SELECT * FRO... categories" />
+                <marker date="1475827771964" expanded="true" signature="4390:4428" placeholder="SELECT * FRO... categories" />
+                <marker date="1475827771964" expanded="true" signature="4469:4510" placeholder="SELECT * FRO... subcategories" />
+                <marker date="1475827771964" expanded="true" signature="4548:4625" placeholder="SELECT * FRO... subcategories" />
+                <marker date="1475827771964" expanded="true" signature="4813:4851" placeholder="SELECT * FRO... categories" />
+                <marker date="1475827771964" expanded="true" signature="4892:4933" placeholder="SELECT * FRO... subcategories" />
+                <marker date="1475827771964" expanded="true" signature="5105:5143" placeholder="SELECT * FRO... categories" />
+                <marker date="1475827771964" expanded="true" signature="5184:5225" placeholder="SELECT * FRO... subcategories" />
+                <marker date="1475827771964" expanded="true" signature="5268:5325" placeholder="SELECT * FRO... categories" />
+                <marker date="1475827771964" expanded="true" signature="5533:5571" placeholder="SELECT * FRO... categories" />
+                <marker date="1475827771964" expanded="true" signature="5612:5653" placeholder="SELECT * FRO... subcategories" />
+                <marker date="1475827771964" expanded="true" signature="5691:5768" placeholder="SELECT * FRO... subcategories" />
+                <marker date="1475827771964" expanded="true" signature="5949:6000" placeholder="SELECT * FRO... questions" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="t1.blade.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/t1.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="33" column="26" selection-start-line="29" selection-start-column="20" selection-end-line="33" selection-end-column="26" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="t2.blade.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/t2.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="33" column="26" selection-start-line="33" selection-start-column="26" selection-end-line="33" selection-end-column="26" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="t3.blade.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/t3.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="33" column="26" selection-start-line="33" selection-start-column="26" selection-end-line="33" selection-end-column="26" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="t4.blade.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/t4.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="33" column="26" selection-start-line="33" selection-start-column="26" selection-end-line="33" selection-end-column="26" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="t5.blade.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/t5.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="629">
-              <caret line="37" column="10" selection-start-line="37" selection-start-column="10" selection-end-line="37" selection-end-column="10" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="poseta.blade.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/poseta.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -168,14 +154,11 @@
         <option value="$PROJECT_DIR$/app/Subcategory.php" />
         <option value="$PROJECT_DIR$/resources/views/admin/index.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/admin/categories.blade.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/IndexController.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/AdminController.php" />
         <option value="$PROJECT_DIR$/resources/views/zadaca.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/layouts/app.blade.php" />
         <option value="$PROJECT_DIR$/app/Http/routes.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/TitleController.php" />
         <option value="$PROJECT_DIR$/resources/views/layouts/page.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/prashaj.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/poseta.blade.php" />
         <option value="$PROJECT_DIR$/.env" />
         <option value="$PROJECT_DIR$/database/migrations/2016_09_08_025812_create_comments_table.php" />
@@ -205,8 +188,11 @@
         <option value="$PROJECT_DIR$/resources/views/t3.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/t4.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/t5.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/index.blade.php" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/resources/views/index.blade.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/IndexController.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/TitleController.php" />
+        <option value="$PROJECT_DIR$/resources/views/prashaj.blade.php" />
       </list>
     </option>
   </component>
@@ -287,38 +273,6 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="storage" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="uploads" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="kgjs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="kgjs" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="storage" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="kgjs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="kgjs" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="resources" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
@@ -345,29 +299,7 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="categories" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="kgjs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="kgjs" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="admin" />
+              <option name="myItemId" value="layouts" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -396,6 +328,46 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kgjs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kgjs" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Http" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kgjs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kgjs" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Http" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Controllers" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -472,12 +444,12 @@
       <workItem from="1475047216152" duration="744000" />
       <workItem from="1475573282990" duration="1354000" />
       <workItem from="1475760595462" duration="4396000" />
-      <workItem from="1475824793710" duration="2329000" />
+      <workItem from="1475824793710" duration="3687000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="94789000" />
+    <option name="totallyTimeSpent" value="96147000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1378" height="744" extended-state="0" />
@@ -520,20 +492,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/resources/views/layouts/page.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="38" column="25" selection-start-line="38" selection-start-column="25" selection-end-line="38" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/prashaj.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="40" selection-start-line="5" selection-start-column="40" selection-end-line="5" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.env">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="442">
@@ -552,13 +510,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="476">
           <caret line="28" column="35" selection-start-line="28" selection-start-column="22" selection-end-line="28" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/layouts/app.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="524">
-          <caret line="34" column="38" selection-start-line="32" selection-start-column="20" selection-end-line="38" selection-end-column="25" />
         </state>
       </provider>
     </entry>
@@ -704,55 +655,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/TitleController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-527">
-          <caret line="18" column="33" selection-start-line="18" selection-start-column="33" selection-end-line="18" selection-end-column="33" />
-          <folding>
-            <marker date="1475005559660" expanded="true" signature="214:252" placeholder="SELECT * FRO... categories" />
-            <marker date="1475005559660" expanded="true" signature="293:334" placeholder="SELECT * FRO... subcategories" />
-            <marker date="1475005559660" expanded="true" signature="506:544" placeholder="SELECT * FRO... categories" />
-            <marker date="1475005559660" expanded="true" signature="585:626" placeholder="SELECT * FRO... subcategories" />
-            <marker date="1475005559660" expanded="true" signature="669:726" placeholder="SELECT * FRO... categories" />
-            <marker date="1475005559660" expanded="true" signature="946:984" placeholder="SELECT * FRO... categories" />
-            <marker date="1475005559660" expanded="true" signature="1025:1066" placeholder="SELECT * FRO... subcategories" />
-            <marker date="1475005559660" expanded="true" signature="1104:1180" placeholder="SELECT * FRO... subcategories" />
-            <marker date="1475005559660" expanded="true" signature="1376:1414" placeholder="SELECT * FRO... categories" />
-            <marker date="1475005559660" expanded="true" signature="1455:1496" placeholder="SELECT * FRO... subcategories" />
-            <marker date="1475005559660" expanded="true" signature="1676:1714" placeholder="SELECT * FRO... categories" />
-            <marker date="1475005559660" expanded="true" signature="1755:1796" placeholder="SELECT * FRO... subcategories" />
-            <marker date="1475005559660" expanded="true" signature="1839:1896" placeholder="SELECT * FRO... categories" />
-            <marker date="1475005559660" expanded="true" signature="2104:2142" placeholder="SELECT * FRO... categories" />
-            <marker date="1475005559660" expanded="true" signature="2183:2224" placeholder="SELECT * FRO... subcategories" />
-            <marker date="1475005559660" expanded="true" signature="2262:2339" placeholder="SELECT * FRO... subcategories" />
-            <marker date="1475005559660" expanded="true" signature="2527:2565" placeholder="SELECT * FRO... categories" />
-            <marker date="1475005559660" expanded="true" signature="2606:2647" placeholder="SELECT * FRO... subcategories" />
-            <marker date="1475005559660" expanded="true" signature="2819:2857" placeholder="SELECT * FRO... categories" />
-            <marker date="1475005559660" expanded="true" signature="2898:2939" placeholder="SELECT * FRO... subcategories" />
-            <marker date="1475005559660" expanded="true" signature="2982:3039" placeholder="SELECT * FRO... categories" />
-            <marker date="1475005559660" expanded="true" signature="3247:3285" placeholder="SELECT * FRO... categories" />
-            <marker date="1475005559660" expanded="true" signature="3326:3367" placeholder="SELECT * FRO... subcategories" />
-            <marker date="1475005559660" expanded="true" signature="3405:3482" placeholder="SELECT * FRO... subcategories" />
-            <marker date="1475005559660" expanded="true" signature="3670:3708" placeholder="SELECT * FRO... categories" />
-            <marker date="1475005559660" expanded="true" signature="3749:3790" placeholder="SELECT * FRO... subcategories" />
-            <marker date="1475005559660" expanded="true" signature="3962:4000" placeholder="SELECT * FRO... categories" />
-            <marker date="1475005559660" expanded="true" signature="4041:4082" placeholder="SELECT * FRO... subcategories" />
-            <marker date="1475005559660" expanded="true" signature="4125:4182" placeholder="SELECT * FRO... categories" />
-            <marker date="1475005559660" expanded="true" signature="4390:4428" placeholder="SELECT * FRO... categories" />
-            <marker date="1475005559660" expanded="true" signature="4469:4510" placeholder="SELECT * FRO... subcategories" />
-            <marker date="1475005559660" expanded="true" signature="4548:4625" placeholder="SELECT * FRO... subcategories" />
-            <marker date="1475005559660" expanded="true" signature="4813:4851" placeholder="SELECT * FRO... categories" />
-            <marker date="1475005559660" expanded="true" signature="4892:4933" placeholder="SELECT * FRO... subcategories" />
-            <marker date="1475005559660" expanded="true" signature="5105:5143" placeholder="SELECT * FRO... categories" />
-            <marker date="1475005559660" expanded="true" signature="5184:5225" placeholder="SELECT * FRO... subcategories" />
-            <marker date="1475005559660" expanded="true" signature="5268:5325" placeholder="SELECT * FRO... categories" />
-            <marker date="1475005559660" expanded="true" signature="5533:5571" placeholder="SELECT * FRO... categories" />
-            <marker date="1475005559660" expanded="true" signature="5612:5653" placeholder="SELECT * FRO... subcategories" />
-            <marker date="1475005559660" expanded="true" signature="5691:5768" placeholder="SELECT * FRO... subcategories" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/CommentsController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
@@ -768,19 +670,6 @@
         <state relative-caret-position="187">
           <caret line="11" column="31" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/IndexController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
-          <folding>
-            <marker date="1474465047122" expanded="true" signature="239:290" placeholder="SELECT * FRO... questions" />
-            <marker date="1474465047122" expanded="true" signature="326:376" placeholder="SELECT * FRO... comments" />
-            <marker date="1474465047122" expanded="true" signature="409:613" placeholder="SELECT * FRO... categories" />
-            <marker date="1474465047122" expanded="true" signature="646:730" placeholder="SELECT * FRO... categories" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -967,18 +856,106 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/index.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1462">
-          <caret line="86" column="28" selection-start-line="86" selection-start-column="28" selection-end-line="86" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="41" selection-start-line="13" selection-start-column="41" selection-end-line="13" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/IndexController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="55" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="55" />
+          <folding>
+            <element signature="e#40#57#0#PHP" expanded="true" />
+            <marker date="1474465047122" expanded="true" signature="239:290" placeholder="SELECT * FRO... questions" />
+            <marker date="1474465047122" expanded="true" signature="326:376" placeholder="SELECT * FRO... comments" />
+            <marker date="1474465047122" expanded="true" signature="409:613" placeholder="SELECT * FRO... categories" />
+            <marker date="1474465047122" expanded="true" signature="646:730" placeholder="SELECT * FRO... categories" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/TitleController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="404">
+          <caret line="144" column="60" selection-start-line="144" selection-start-column="60" selection-end-line="144" selection-end-column="60" />
+          <folding>
+            <marker date="1475827771964" expanded="true" signature="214:252" placeholder="SELECT * FRO... categories" />
+            <marker date="1475827771964" expanded="true" signature="293:334" placeholder="SELECT * FRO... subcategories" />
+            <marker date="1475827771964" expanded="true" signature="506:544" placeholder="SELECT * FRO... categories" />
+            <marker date="1475827771964" expanded="true" signature="585:626" placeholder="SELECT * FRO... subcategories" />
+            <marker date="1475827771964" expanded="true" signature="669:726" placeholder="SELECT * FRO... categories" />
+            <marker date="1475827771964" expanded="true" signature="946:984" placeholder="SELECT * FRO... categories" />
+            <marker date="1475827771964" expanded="true" signature="1025:1066" placeholder="SELECT * FRO... subcategories" />
+            <marker date="1475827771964" expanded="true" signature="1104:1180" placeholder="SELECT * FRO... subcategories" />
+            <marker date="1475827771964" expanded="true" signature="1376:1414" placeholder="SELECT * FRO... categories" />
+            <marker date="1475827771964" expanded="true" signature="1455:1496" placeholder="SELECT * FRO... subcategories" />
+            <marker date="1475827771964" expanded="true" signature="1676:1714" placeholder="SELECT * FRO... categories" />
+            <marker date="1475827771964" expanded="true" signature="1755:1796" placeholder="SELECT * FRO... subcategories" />
+            <marker date="1475827771964" expanded="true" signature="1839:1896" placeholder="SELECT * FRO... categories" />
+            <marker date="1475827771964" expanded="true" signature="2104:2142" placeholder="SELECT * FRO... categories" />
+            <marker date="1475827771964" expanded="true" signature="2183:2224" placeholder="SELECT * FRO... subcategories" />
+            <marker date="1475827771964" expanded="true" signature="2262:2339" placeholder="SELECT * FRO... subcategories" />
+            <marker date="1475827771964" expanded="true" signature="2527:2565" placeholder="SELECT * FRO... categories" />
+            <marker date="1475827771964" expanded="true" signature="2606:2647" placeholder="SELECT * FRO... subcategories" />
+            <marker date="1475827771964" expanded="true" signature="2819:2857" placeholder="SELECT * FRO... categories" />
+            <marker date="1475827771964" expanded="true" signature="2898:2939" placeholder="SELECT * FRO... subcategories" />
+            <marker date="1475827771964" expanded="true" signature="2982:3039" placeholder="SELECT * FRO... categories" />
+            <marker date="1475827771964" expanded="true" signature="3247:3285" placeholder="SELECT * FRO... categories" />
+            <marker date="1475827771964" expanded="true" signature="3326:3367" placeholder="SELECT * FRO... subcategories" />
+            <marker date="1475827771964" expanded="true" signature="3405:3482" placeholder="SELECT * FRO... subcategories" />
+            <marker date="1475827771964" expanded="true" signature="3670:3708" placeholder="SELECT * FRO... categories" />
+            <marker date="1475827771964" expanded="true" signature="3749:3790" placeholder="SELECT * FRO... subcategories" />
+            <marker date="1475827771964" expanded="true" signature="3962:4000" placeholder="SELECT * FRO... categories" />
+            <marker date="1475827771964" expanded="true" signature="4041:4082" placeholder="SELECT * FRO... subcategories" />
+            <marker date="1475827771964" expanded="true" signature="4125:4182" placeholder="SELECT * FRO... categories" />
+            <marker date="1475827771964" expanded="true" signature="4390:4428" placeholder="SELECT * FRO... categories" />
+            <marker date="1475827771964" expanded="true" signature="4469:4510" placeholder="SELECT * FRO... subcategories" />
+            <marker date="1475827771964" expanded="true" signature="4548:4625" placeholder="SELECT * FRO... subcategories" />
+            <marker date="1475827771964" expanded="true" signature="4813:4851" placeholder="SELECT * FRO... categories" />
+            <marker date="1475827771964" expanded="true" signature="4892:4933" placeholder="SELECT * FRO... subcategories" />
+            <marker date="1475827771964" expanded="true" signature="5105:5143" placeholder="SELECT * FRO... categories" />
+            <marker date="1475827771964" expanded="true" signature="5184:5225" placeholder="SELECT * FRO... subcategories" />
+            <marker date="1475827771964" expanded="true" signature="5268:5325" placeholder="SELECT * FRO... categories" />
+            <marker date="1475827771964" expanded="true" signature="5533:5571" placeholder="SELECT * FRO... categories" />
+            <marker date="1475827771964" expanded="true" signature="5612:5653" placeholder="SELECT * FRO... subcategories" />
+            <marker date="1475827771964" expanded="true" signature="5691:5768" placeholder="SELECT * FRO... subcategories" />
+            <marker date="1475827771964" expanded="true" signature="5949:6000" placeholder="SELECT * FRO... questions" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/layouts/app.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-52">
+          <caret line="129" column="0" selection-start-line="129" selection-start-column="0" selection-end-line="129" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/index.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-578">
+          <caret line="8" column="59" selection-start-line="8" selection-start-column="59" selection-end-line="8" selection-end-column="59" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/prashaj.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
           <folding />
         </state>
       </provider>

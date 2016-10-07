@@ -8,11 +8,6 @@
 {{--<h2><a href="{{route('t4.index')}}">Останати процедури</a></h2>--}}
 {{--<h2><a href="{{route('t5.index')}}">За нас</a></h2>--}}
 
-{{--<h3>Прашања</h3> <br>--}}
-{{--@foreach ($questions as $question)--}}
-    {{--<a href="{{route('questions.show')}}">{{$question->title}}</a> <br>--}}
-{{--@endforeach--}}
-
 <!-- Row (News Section) -->
 <div class="row" id="lajme">
     <div class="col-md-5">

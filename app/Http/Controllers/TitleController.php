@@ -140,7 +140,9 @@ class TitleController extends Controller
     
     public function prashaj()
     {
-        return view('prashaj');
+        $questions = DB::select("SELECT * FROM questions ORDER BY created_at LIMIT 3");
+
+        return view('prashaj', ['questions' => $questions]);
     }
     
     public function poseta()
