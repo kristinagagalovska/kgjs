@@ -37,7 +37,8 @@ class CategoryController extends Controller
         } else {
         $extension = $image->getClientOriginalExtension(); // getting image extension
         $fileName = rand(11111,99999).'.'.$extension;
-        $directory = storage_path("uploads");
+        $directory = "jusutfed/laravel/kgjs/storage/uploads";
+           // $directory = public_path("images/");
         $image = $image->move($directory, $fileName);
         $category->setImage($image->getFilename()); }
         $category->save();

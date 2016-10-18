@@ -25,8 +25,12 @@ class CommentsController extends Controller
         } else {
         $extension = $image->getClientOriginalExtension(); // getting image extension
         $fileName = rand(11111,99999).'.'.$extension;
+            //$directory = storage_path('home/jusutfed/public_html/jusufi.website/img');
         $directory = storage_path("uploads/");
-        $image = $image->move($directory, $fileName);
+           //$directory = storage_path("jusutfed/public_html/Jusufi.website/images/");
+            ///public_html/jusufi.website/jusutfed/public_html/Jusufi.website/images
+            //$directory = "/public_html/jusufi.website/images";
+            $image = $image->move($directory, $fileName);
         $comment->setImage($image->getFilename()); }
         $comment->save();
     }

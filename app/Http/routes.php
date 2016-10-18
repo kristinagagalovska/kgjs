@@ -12,6 +12,8 @@ $router->group([
     $router->get('/questions', 'QuestionsController@show')->name('questions.show');
     $router->get('/poseta', 'TitleController@poseta')->name('poseta');
     $router->get('/prashaj', 'TitleController@prashaj')->name('prashaj');
+
+    $router->post('/storeee', 'ContactController@store')->name('contact');
 });
 
 $router->group([

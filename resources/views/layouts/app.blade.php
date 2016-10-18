@@ -53,19 +53,19 @@
             </ol>
             <!-- Wrapper for slides -->
             <div class="carousel-inner" role="listbox">
-                <div class="item active"> <img src="img/uploads/11.jpg" alt="New York" width="1200" height="700">
+                <div class="item active"> <img src="{{url("/img/11.jpg")}}" alt="New York" width="1200" height="700">
                     <div class="carousel-caption">
                         <h3>New York</h3>
                         <p>The atmosphere in New York is lorem ipsum.</p>
                     </div>
                 </div>
-                <div class="item"> <img src="img/uploads/2.jpg" alt="Chicago" width="1200" height="700">
+                <div class="item"> <img src="{{url("/img/2.jpg")}}" alt="Chicago" width="1200" height="700">
                     <div class="carousel-caption">
                         <h3>Chicago</h3>
                         <p>Thank you, Chicago - A night we won't forget.</p>
                     </div>
                 </div>
-                <div class="item"> <img src="img/uploads/3.jpg" alt="Los Angeles" width="1200" height="700">
+                <div class="item"> <img src="{{url("/img/3.jpg")}}" alt="Los Angeles" width="1200" height="700">
                     <div class="carousel-caption">
                         <h3>LA</h3>
                         <p>Even though the traffic was a mess, we had the best time playing at Venice Beach!</p>
@@ -87,59 +87,59 @@
     @yield('content')
     @yield('deshmi')
 
+<!-- Row (Contact Section) -->
+<div id="contact" class="row">
+    <h2 class="text-center">Contact</h2><hr>
+    <div class="col-md-4">
+        <address>
+            <strong style="color:#cd9dd8"><span class="glyphicon glyphicon-map-marker"></span>Klinika Gjermane e Syrit</strong><br>
+            Spitali Hygeia, Autostrada Tirane-Durres, Km1<br>
+            1000, Tirana, AL<br>
+            <abbr title="Phone"><span class="glyphicon glyphicon-phone"></span></abbr> +355 4 23 88 931 <br>
+            <abbr title="Phone"><span class="glyphicon glyphicon-phone"></span></abbr> +355 69 60 82 771 <br>
+            <abbr title="Mail"><span class="glyphicon glyphicon-envelope"></span></abbr> info@kgjs.al
+        </address>
+        <p><strong>Social</strong></p>
+        <div class="row">
+            <div class="col-xs-2"><img class="img-circle" src="img/fblogo.jpg" width="32px" height="32px" alt="Fb Logo"></div>
+            <div class="col-xs-2"><img class="img-circle" src="img/youtubelogo.png" width="32px" height="32px" alt="Youtube Logo"></div>       	<div class="col-xs-2"><img class="img-circle" src="img/32X32.gif" alt=""></div>
+            <div class="col-xs-2"><img class="img-circle" src="img/32X32.gif" alt=""></div>
+        </div>
     </div>
 
-    <!-- Row (Contact Section) -->
-    <div id="contact" class="row">
-        <h2 class="text-center">Contact</h2><hr>
-        <div class="col-md-4">
-            <address>
-                <strong style="color:#cd9dd8"><span class="glyphicon glyphicon-map-marker"></span>Klinika Gjermane e Syrit</strong><br>
-                Spitali Hygeia, Autostrada Tirane-Durres, Km1<br>
-                1000, Tirana, AL<br>
-                <abbr title="Phone"><span class="glyphicon glyphicon-phone"></span></abbr> +355 4 23 88 931 <br>
-                <abbr title="Phone"><span class="glyphicon glyphicon-phone"></span></abbr> +355 69 60 82 771 <br>
-                <abbr title="Mail"><span class="glyphicon glyphicon-envelope"></span></abbr> info@kgjs.al
-            </address>
-            <p><strong>Social</strong></p>
-            <div class="row">
-                <div class="col-xs-2"><img class="img-circle" src="img/fblogo.jpg" width="32px" height="32px" alt="Fb Logo"></div>
-                <div class="col-xs-2"><img class="img-circle" src="img/youtubelogo.png" width="32px" height="32px" alt="Youtube Logo"></div>       	<div class="col-xs-2"><img class="img-circle" src="img/32X32.gif" alt=""></div>
-                <div class="col-xs-2"><img class="img-circle" src="img/32X32.gif" alt=""></div>
+    <form  role="form" action="{{route('contact')}}" method="POST" enctype="multipart/form-data">
+        <input type="hidden" name="_token" value="{{ csrf_token() }}"/>
+    <div class="col-md-8">
+        <div class="row">
+            <div class="col-sm-6 form-group">
+                <input class="form-control" id="name" name="name" placeholder="Name" type="text" required>
+            </div>
+            <div class="col-sm-6 form-group">
+                <input class="form-control" id="email" name="email" placeholder="Email" type="email" required>
             </div>
         </div>
-
-        <div class="col-md-8">
-            <div class="row">
-                <div class="col-sm-6 form-group">
-                    <input class="form-control" id="name" name="name" placeholder="Name" type="text" required>
-                </div>
-                <div class="col-sm-6 form-group">
-                    <input class="form-control" id="email" name="email" placeholder="Email" type="email" required>
-                </div>
-            </div>
-            <textarea class="form-control" id="comments" name="comments" placeholder="Comment" rows="5"></textarea>
-            <br>
-            <div class="col-md-12 form-group">
-                <button class="btn pull-right" type="submit">Send</button>
-
-            </div>
-        </div>
+        <textarea class="form-control" id="comments" name="comments" placeholder="Comment" rows="5"></textarea>
         <br>
+        <div class="col-md-12 form-group">
+            <button class="btn pull-right" type="submit">Send</button>
+        </div>
     </div>
+    </form>
+
+    <br>
+</div>
 
 
-    <!-- Add Google Maps -->
-    <div class="row" id="googleMap"></div>
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDzQRf2gNUzW2LMMatg2Btu7QUyjhPMTls" type="text/javascript"></script>
-    <script src="js/script.js"></script>
+<!-- Add Google Maps -->
+<div class="row" id="googleMap"></div>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDzQRf2gNUzW2LMMatg2Btu7QUyjhPMTls" type="text/javascript"></script>
+<script src="js/script.js"></script>
 </div>
 <!-- Footer -->
-
 <footer class="text-center">
     <a class="up-arrow" href="#myPage" data-toggle="tooltip" title="TO TOP">
         <span class="glyphicon glyphicon-chevron-up"></span>
-    </a><br><br>
+    </a>
     <div class="container">
         <div class="row">
             <div class="col-xs-12">
@@ -150,9 +150,9 @@
             <div class="col-sm-3">
                 <div class="row">
                     <p style="color:#cd9dd8"><strong><span class="glyphicon glyphicon-eye-open" aria-hidden="true"></span> Klinika Gjermane - Prishtinë</strong></p>
-                </div>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis accusamus praesentium eveniet ad unde doloremque ex officia eius ab quibusdam.</p>
-            </div>
+                </div>
+                </div>
             <div class="col-sm-3">
                 <div class="row">
                     <p style="color:#cd9dd8"><strong><span class="glyphicon glyphicon-eye-open" aria-hidden="true"></span> Augenklinik Westfalen.</strong></p>
@@ -162,14 +162,14 @@
             <div class="col-sm-3">
                 <div class="row">
                     <p style="color:#cd9dd8"><strong><span class="glyphicon glyphicon-eye-open" aria-hidden="true"></span> Augenzentrum Lunen</strong></p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi, error, itaque non vel architecto ratione obcaecati doloribus delectus illum harum?</p>
                 </div>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi, error, itaque non vel architecto ratione obcaecati doloribus delectus illum harum?</p>
-            </div>
+                </div>
             <div class="col-sm-3">
                 <div class="row">
                     <p style="color:#cd9dd8"><strong><span class="glyphicon glyphicon-eye-open" aria-hidden="true"></span> Augenzentren</strong></p>
-                </div>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque, nam voluptate accusantium nulla distinctio odit aliquam voluptatem ab. Earum, voluptatibus.</p>
+            </div>
             </div>
         </div>
         <div class="row text-center">
@@ -181,29 +181,24 @@
     </div>
 </footer>
 
+
 <script>
     $(document).ready(function(){
         // Initialize Tooltip
         $('[data-toggle="tooltip"]').tooltip();
-
         // Add smooth scrolling to all links in navbar + footer link
         $(".navbar a, footer a[href='#myPage']").on('click', function(event) {
-
             // Make sure this.hash has a value before overriding default behavior
             if (this.hash !== "") {
-
                 // Prevent default anchor click behavior
                 event.preventDefault();
-
                 // Store hash
                 var hash = this.hash;
-
                 // Using jQuery's animate() method to add smooth page scroll
                 // The optional number (900) specifies the number of milliseconds it takes to scroll to the specified area
                 $('html, body').animate({
                     scrollTop: $(hash).offset().top
                 }, 900, function(){
-
                     // Add hash (#) to URL when done scrolling (default click behavior)
                     window.location.hash = hash;
                 });

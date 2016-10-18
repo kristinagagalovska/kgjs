@@ -89,7 +89,7 @@
 
 @yield('content')
 
-    <!-- Row (Contact Section) -->
+<!-- Row (Contact Section) -->
     <div id="contact" class="row">
         <h2 class="text-center">Contact</h2><hr>
         <div class="col-md-4">
@@ -109,22 +109,24 @@
             </div>
         </div>
 
-        <div class="col-md-8">
-            <div class="row">
-                <div class="col-sm-6 form-group">
-                    <input class="form-control" id="name" name="name" placeholder="Name" type="text" required>
+        <form  role="form" action="{{route('contact')}}" method="POST" enctype="multipart/form-data">
+            <input type="hidden" name="_token" value="{{ csrf_token() }}"/>
+            <div class="col-md-8">
+                <div class="row">
+                    <div class="col-sm-6 form-group">
+                        <input class="form-control" id="name" name="name" placeholder="Name" type="text" required>
+                    </div>
+                    <div class="col-sm-6 form-group">
+                        <input class="form-control" id="email" name="email" placeholder="Email" type="email" required>
+                    </div>
                 </div>
-                <div class="col-sm-6 form-group">
-                    <input class="form-control" id="email" name="email" placeholder="Email" type="email" required>
+                <textarea class="form-control" id="comments" name="comments" placeholder="Comment" rows="5"></textarea>
+                <br>
+                <div class="col-md-12 form-group">
+                    <button class="btn pull-right" type="submit">Send</button>
                 </div>
             </div>
-            <textarea class="form-control" id="comments" name="comments" placeholder="Comment" rows="5"></textarea>
-            <br>
-            <div class="col-md-12 form-group">
-                <button class="btn pull-right" type="submit">Send</button>
-
-            </div>
-        </div>
+        </form>
         <br>
     </div>
 
@@ -135,11 +137,10 @@
     <script src="js/script.js"></script>
 </div>
 <!-- Footer -->
-
 <footer class="text-center">
     <a class="up-arrow" href="#myPage" data-toggle="tooltip" title="TO TOP">
         <span class="glyphicon glyphicon-chevron-up"></span>
-    </a><br><br>
+    </a>
     <div class="container">
         <div class="row">
             <div class="col-xs-12">
@@ -181,29 +182,24 @@
     </div>
 </footer>
 
+
 <script>
     $(document).ready(function(){
         // Initialize Tooltip
         $('[data-toggle="tooltip"]').tooltip();
-
         // Add smooth scrolling to all links in navbar + footer link
         $(".navbar a, footer a[href='#myPage']").on('click', function(event) {
-
             // Make sure this.hash has a value before overriding default behavior
             if (this.hash !== "") {
-
                 // Prevent default anchor click behavior
                 event.preventDefault();
-
                 // Store hash
                 var hash = this.hash;
-
                 // Using jQuery's animate() method to add smooth page scroll
                 // The optional number (900) specifies the number of milliseconds it takes to scroll to the specified area
                 $('html, body').animate({
                     scrollTop: $(hash).offset().top
                 }, 900, function(){
-
                     // Add hash (#) to URL when done scrolling (default click behavior)
                     window.location.hash = hash;
                 });

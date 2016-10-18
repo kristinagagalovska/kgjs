@@ -41,7 +41,9 @@ class SubcategoryController extends Controller
         } else {
         $extension = $image->getClientOriginalExtension(); // getting image extension
         $fileName = rand(11111,99999).'.'.$extension;
-        $directory = storage_path("uploads");
+        //$directory = "jusutfed/public_html/Jusufi.website/images";
+            //$directory = storage_path("uploads");
+            $directory = "jusutfed/laravel/kgjs/storage/uploads";
         $image = $image->move($directory, $fileName);
         $category->setImage($image->getFilename()); }
         $category->save();

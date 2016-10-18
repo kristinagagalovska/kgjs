@@ -25,7 +25,7 @@
         <!--Content-->
         <div class="col-md-8" id="permbajtjekryesore">
             @foreach($category as $cat)
-                {{$cat->title}}
+                <h3>{{$cat->title}}</h3>
                 <p> {{$cat->description}} <br>
                     @if($cat->id == null)
                         {{--<img src="{{ route('images', $cat->image)}}" style="height: 16em; width:16em; display: none;"> <br>--}}

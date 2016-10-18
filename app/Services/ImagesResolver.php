@@ -9,7 +9,9 @@ class ImagesResolver
 {
     public function get($filename) 
     {
-        $path = storage_path('uploads') . '/' . $filename;
+        //$path = '/laravel/kgjs/storage/uploads' . '/' . $filename;
+        //$path = '/public_html/jusufi.website/jusutfed/public_html/Jusufi.website/images' . '/' . $filename;
+        $path = url("/img" . "/" . $filename);
 
         if(!File::exists($path)) abort(404);
 

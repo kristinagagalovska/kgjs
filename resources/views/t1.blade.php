@@ -25,7 +25,7 @@
         <!--Content-->
         <div class="col-md-8" id="permbajtjekryesore">
             @if($categories)
-            {{$categories[0]->title}}
+            <h3>{{$categories[0]->title}}</h3>
                 <p> {{$categories[0]->description}} <br>
                     @if($categories[0]->image == 'null')
                         {{--<img src="{{ route('images', $cat->image)}}" style="height: 16em; width:16em; display: none;"> <br>--}}
