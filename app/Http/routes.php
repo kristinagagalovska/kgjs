@@ -20,7 +20,9 @@ $router->group([
     'prefix' => 'admin',
     'middleware' => 'web',
 ], function (Router $router) {
-    $router->get('/', 'AdminController@index')->name('admin.index');
+    $router->get('/', 'AdminController@login')->name('admin.login');
+    $router->post('/', 'AdminController@submit')->name('admin.submit');
+    $router->get('/index', 'AdminController@index')->name('admin.index');
 
     $router->get('/createQuestion', 'QuestionsController@create')->name('questions.create');
     $router->post('/storeQuestion', 'QuestionsController@store')->name('questions.store');
