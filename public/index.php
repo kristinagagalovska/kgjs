@@ -34,8 +34,8 @@ require __DIR__.'/../../kgjs/bootstrap/autoload.php';
 |
 */
 
-$app = require_once __DIR__.'/../bootstrap/app.php';
-
+//$app = require_once __DIR__.'/../bootstrap/app.php';
+$app = require_once __DIR__.'/../../kgjs/bootstrap/autoload.php';
 /*
 |--------------------------------------------------------------------------
 | Run The Application
