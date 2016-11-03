@@ -2,9 +2,30 @@
 
 @section('content')
 
+
     @foreach ($questions as $question)
     {{--<a href="{{route('questions.show')}}">{{$question->title}}</a> <br>--}}
-    <label>{{$question->title}} <br> {{@$question->description}}</label> <br> <br> <br>
+    {{--<label>{{$question->title}} <br> {{@$question->description}}</label> <br> <br> <br>--}}
+
+    <!-- Row (FAQ Section) -->
+    <br>
+    <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+        <div class="panel panel-default">
+            <div class="panel-heading" role="tab" >
+                <h4 class="panel-title">
+                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#{{$question->id}}" aria-expanded="false" aria-controls="collapseOne">
+                        {{$question->title}}
+                    </a>
+                </h4>
+            </div>
+            <div id="{{$question->id}}" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+                <div class="panel-body">
+                    {{@$question->description}}
+                </div>
+            </div>
+        </div>
+    </div>
+
     @endforeach
 
     <form  role="form" action="{{route('contact')}}" method="POST" enctype="multipart/form-data">

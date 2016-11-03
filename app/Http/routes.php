@@ -14,6 +14,7 @@ $router->group([
     $router->get('/prashaj', 'TitleController@prashaj')->name('prashaj');
 
     $router->post('/storeee', 'ContactController@store')->name('contact');
+    $router->get('/{id}', 'CommentsController@show')->name('ko');
 });
 
 $router->group([

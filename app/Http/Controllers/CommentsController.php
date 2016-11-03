@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Comment;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\DB;
 
 class CommentsController extends Controller
 {
@@ -33,5 +34,12 @@ class CommentsController extends Controller
             $image = $image->move($directory, $fileName);
         $comment->setImage($image->getFilename()); }
         $comment->save();
+    }
+
+    public function show($id)
+    {
+        $comment = (array)DB::select("SELECT * FROM comments WHERE id='$id'");
+
+        return view('comments.show', ['comment' => $comment]);
     }
 }

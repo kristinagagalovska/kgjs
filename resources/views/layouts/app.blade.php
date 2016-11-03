@@ -23,24 +23,27 @@
         <div class="row">
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar"> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
-                <a class="navbar-brand" href="{{route('index')}}"><img src="{{url("/img/logo.png")}}" alt="Klinika Gjermane e Syrit" height="40" width="170"></a> </div>
+                <a class="navbar-brand" href="{{route('index')}}" id="logoxl"><img src="{{url("/img/logo.png")}}" alt="Klinika Gjermane e Syrit" height="40" width="170"></a>
+                <a class="navbar-brand" href="{{route('index')}}" id="logosm" style="display:none"><img src="{{("img/domed.png")}}" alt="Klinika Gjermane e Syrit" height="40"></a></div>
             <div class="collapse navbar-collapse" id="myNavbar">
                 <ul class="nav navbar-nav navbar-right">
                     <li><a href="{{route('t1.index')}}">Нарушување на видот</a></li>
                     <li><a href="{{route('t2.index')}}">Живот без наочари</a></li>
                     <li><a href="{{route('t3.index')}}">Операција на катаракта</a></li>
                     <li><a href="{{route('t4.index')}}">Останати процедури</a></li>
-                    <li class="dropdown"> <a class="dropdown-toggle" data-toggle="dropdown" href="#">Më tepër <span class="caret"></span></a>
+                    <li class="dropdown"> <a class="dropdown-toggle" data-toggle="dropdown" href="#">Повеќе <span class="caret"></span></a>
                         <ul class="dropdown-menu">
                             <li><a href="{{route('t5.index')}}">За нас</a></li>
                             <li><a href="{{route('poseta')}}">Посета</a></li>
                             <li><a href="{{route('prashaj')}}">Прашај го лекарот</a></li>
                         </ul>
                     </li>
+                    <li><a href="#contact">Албански</a></li>
                 </ul>
             </div>
         </div>
     </nav>
+
 
     <!--Row (Image Slider Section)-->
     <div class="row" id="myCarouselRow">
@@ -136,40 +139,39 @@
 <script src="js/script.js"></script>
 </div>
 <!-- Footer -->
-<footer class="text-center">
-    <a class="up-arrow" href="#myPage" data-toggle="tooltip" title="TO TOP">
-        <span class="glyphicon glyphicon-chevron-up"></span>
-    </a>
+<footer class="text-center"><a class="up-arrow" href="#myPage" data-toggle="tooltip" title="TO TOP"></a><br>
+    <br>
     <div class="container">
         <div class="row">
             <div class="col-xs-12">
-                <h2>Partnerë:</h2><br>
+                <h2 style="color:#FFFFFF">Partnerë:</h2>
+                <br>
             </div>
         </div>
         <div class="row text-center">
             <div class="col-sm-3">
                 <div class="row">
-                    <p style="color:#cd9dd8"><strong><span class="glyphicon glyphicon-eye-open" aria-hidden="true"></span> Klinika Gjermane - Prishtinë</strong></p>
+                    <p class="partnerHeading"><strong>Klinika Gjermane - Prishtinë</strong></p>
+                </div>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis accusamus praesentium eveniet ad unde doloremque ex officia eius ab quibusdam.</p>
-                </div>
-                </div>
+            </div>
             <div class="col-sm-3">
                 <div class="row">
-                    <p style="color:#cd9dd8"><strong><span class="glyphicon glyphicon-eye-open" aria-hidden="true"></span> Augenklinik Westfalen.</strong></p>
+                    <p class="partnerHeading"><strong>Augenklinik Westfalen.</strong></p>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos, mollitia natus amet eligendi consequuntur. Veritatis ullam debitis voluptas repellat laboriosam.</p>
                 </div>
             </div>
             <div class="col-sm-3">
                 <div class="row">
-                    <p style="color:#cd9dd8"><strong><span class="glyphicon glyphicon-eye-open" aria-hidden="true"></span> Augenzentrum Lunen</strong></p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi, error, itaque non vel architecto ratione obcaecati doloribus delectus illum harum?</p>
+                    <p class="partnerHeading"><strong>Augenzentrum Lunen</strong></p>
                 </div>
-                </div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi, error, itaque non vel architecto ratione obcaecati doloribus delectus illum harum?</p>
+            </div>
             <div class="col-sm-3">
                 <div class="row">
-                    <p style="color:#cd9dd8"><strong><span class="glyphicon glyphicon-eye-open" aria-hidden="true"></span> Augenzentren</strong></p>
+                    <p class="partnerHeading"><strong>Augenzentren</strong></p>
+                </div>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque, nam voluptate accusantium nulla distinctio odit aliquam voluptatem ab. Earum, voluptatibus.</p>
-            </div>
             </div>
         </div>
         <div class="row text-center">

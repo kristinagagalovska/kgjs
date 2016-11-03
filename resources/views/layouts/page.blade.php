@@ -25,7 +25,8 @@
         <div class="row">
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar"> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
-                <a class="navbar-brand" href="{{route('index')}}"><img src="{{url("/img/logo.png")}}" alt="Klinika Gjermane e Syrit" height="40" width="170"></a> </div>
+                <a class="navbar-brand" href="{{route('index')}}" id="logoxl"><img src="{{url("/img/logo.png")}}" alt="Klinika Gjermane e Syrit" height="40" width="170"></a>
+                <a class="navbar-brand" href="{{route('index')}}" id="logosm" style="display:none"><img src="{{("img/domed.png")}}" alt="Klinika Gjermane e Syrit" height="40"></a></div>
             <div class="collapse navbar-collapse" id="myNavbar">
                 <ul class="nav navbar-nav navbar-right">
                     <li><a href="{{route('t1.index')}}">Нарушување на видот</a></li>
@@ -39,6 +40,7 @@
                             <li><a href="{{route('prashaj')}}">Прашај го лекарот</a></li>
                         </ul>
                     </li>
+                    <li><a href="#contact">Албански</a></li>
                 </ul>
             </div>
         </div>
@@ -55,19 +57,19 @@
             </ol>
             <!-- Wrapper for slides -->
             <div class="carousel-inner" role="listbox">
-                <div class="item active"> <img src="{{url("img/uploads/11.jpg")}}" alt="New York" width="1200" height="700">
+                <div class="item active"> <img src="{{url("img/11.jpg")}}" alt="New York" width="1200" height="700">
                     <div class="carousel-caption">
                         <h3>New York</h3>
                         <p>The atmosphere in New York is lorem ipsum.</p>
                     </div>
                 </div>
-                <div class="item"> <img src="{{url("img/uploads/2.jpg")}}" alt="Chicago" width="1200" height="700">
+                <div class="item"> <img src="{{url("img/2.jpg")}}" alt="Chicago" width="1200" height="700">
                     <div class="carousel-caption">
                         <h3>Chicago</h3>
                         <p>Thank you, Chicago - A night we won't forget.</p>
                     </div>
                 </div>
-                <div class="item"> <img src="{{url("img/uploads/3.jpg")}}" alt="Los Angeles" width="1200" height="700">
+                <div class="item"> <img src="{{url("img/3.jpg")}}" alt="Los Angeles" width="1200" height="700">
                     <div class="carousel-caption">
                         <h3>LA</h3>
                         <p>Even though the traffic was a mess, we had the best time playing at Venice Beach!</p>
