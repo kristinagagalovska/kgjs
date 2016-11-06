@@ -17,9 +17,11 @@
             <textarea class="form-control" id="comments" name="comments" placeholder="ОПИС" rows="5"></textarea>
             <br>
             <div class="col-md-12 form-group">
-                <button class="btn pull-right" type="submit">Send</button>
+                <button class="btn pull-right" type="submit">Закажи</button>
             </div>
         </div>
     </form>
+
+    <br><br><br>
 
 @endsection

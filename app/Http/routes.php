@@ -21,7 +21,7 @@ $router->group([
     'prefix' => 'admin',
     'middleware' => 'web',
 ], function (Router $router) {
-    $router->get('/', 'AdminController@login')->name('admin.login');
+    $router->get('/admin', 'AdminController@login')->name('admin.login');
     $router->post('/', 'AdminController@submit')->name('admin.submit');
     $router->get('/index', 'AdminController@index')->name('admin.index');
 
@@ -46,16 +46,23 @@ $router->group([
     'prefix' => 'narushuvanjeNaVidot',
     'middleware' => 'web',
 ], function (Router $router) {
-    $router->get('/', 'TitleController@title1')->name('t1.index');
+    $router->get('/narushuvanjeNaVidot', 'TitleController@title1')->name('t1.index');
     $router->get('/{title}', 'TitleController@show1')->name('t1.show');
     $router->get('/{id}/{title}', 'TitleController@showSubCat1')->name('sub1.show');
+});
+
+$router->group([
+    'prefix' => 'proba',
+    'middleware' => 'web',
+], function (Router $router) {
+    $router->get('/', 'TitleController@proba')->name('proba.index');
 });
 
 $router->group([
     'prefix' => 'zhivotBezNaochari',
     'middleware' => 'web',
 ], function (Router $router) {
-    $router->get('/', 'TitleController@title2')->name('t2.index');
+    $router->get('/zhivotBezNaochari', 'TitleController@title2')->name('t2.index');
     $router->get('/{title}', 'TitleController@show2')->name('t2.show');
     $router->get('/{id}/{title}', 'TitleController@showSubCat2')->name('sub2.show');
 });
@@ -64,7 +71,7 @@ $router->group([
     'prefix' => 'operacijaNaKatarakta',
     'middleware' => 'web',
 ], function (Router $router) {
-    $router->get('/', 'TitleController@title3')->name('t3.index');
+    $router->get('/operacijaNaKatarakta', 'TitleController@title3')->name('t3.index');
     $router->get('/{title}', 'TitleController@show3')->name('t3.show');
     $router->get('/{id}/{title}', 'TitleController@showSubCat3')->name('sub3.show');
 });
@@ -73,7 +80,7 @@ $router->group([
     'prefix' => 'ostanatiProceduri',
     'middleware' => 'web',
 ], function (Router $router) {
-    $router->get('/', 'TitleController@title4')->name('t4.index');
+    $router->get('/ostanatiProceduri', 'TitleController@title4')->name('t4.index');
     $router->get('/{title}', 'TitleController@show4')->name('t4.show');
     $router->get('/{id}/{title}', 'TitleController@showSubCat4')->name('sub4.show');
 });
@@ -82,7 +89,7 @@ $router->group([
     'prefix' => 'zaNas',
     'middleware' => 'web',
 ], function (Router $router) {
-    $router->get('/', 'TitleController@title5')->name('t5.index');
+    $router->get('/zaNas', 'TitleController@title5')->name('t5.index');
     $router->get('/{title}', 'TitleController@show5')->name('t5.show');
     $router->get('/{id}/{title}', 'TitleController@showSubCat5')->name('sub5.show');
 });

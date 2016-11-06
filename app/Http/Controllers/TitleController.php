@@ -8,6 +8,11 @@ use Illuminate\Support\Facades\DB;
 
 class TitleController extends Controller
 {
+    public function proba()
+    {
+        return view('proba');
+    }
+
     public function title1()
     {
         $categories = (array)DB::select("SELECT * FROM categories WHERE num='1'");
